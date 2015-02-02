@@ -18,9 +18,9 @@
 
 using System;
 using System.Drawing;
-using MonoTouch.ObjCRuntime;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using ObjCRuntime;
+using Foundation;
+using UIKit;
 
 //
 // API mapping for PixateFreestyle API version 2 or greater
@@ -50,7 +50,7 @@ namespace PixateFreestyleLib
 		void InitializePixateFreestyle();
 
 		[Static, Export ("selectFromStyleable:usingSelector:")]
-		NSObject[] SelectFromStyleableUsingSelector(NSObject styleable, string Selector);
+		NSObject[] SelectFromStyleableUsingSelector(NSObject styleable, string stylableSelector);
 
 		[Static, Export ("matchingRuleSetsForStyleable:")]
 		string MatchingRuleSetsForStyleable(NSObject styleable);

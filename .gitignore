@@ -4,9 +4,7 @@
 bin/
 obj/
 
-/Source/Pixate/Pixate
 
-/Source/iOS/PixateFreestyle/PixateFreestyle
 /Source/iOS/PixateFreestyle/PixateFreestyle.dll
 
 /ComponentStore/PixateFreestyle-*.xam

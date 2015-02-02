@@ -16,10 +16,10 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-using MonoTouch.Foundation;
-using MonoTouch.ObjCRuntime;
+using Foundation;
+using ObjCRuntime;
 using System;
-using MonoTouch.UIKit;
+using UIKit;
 
 using System.Linq;
 using System.Collections.Generic;
